@@ -12,3 +12,4 @@ n3=input(f"{n1} enter the mail: ")
 n4=int(input(f"{n1} enter the mobile number : "))
 s=Student(n1,n2,n3,n4)
 s.disp()
+
