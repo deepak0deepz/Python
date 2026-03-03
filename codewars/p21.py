@@ -11,4 +11,4 @@ def fibb(n):
     print()
     return l 
 n=int(input("enter the range to get the series: "))
-print(fibb(n))5
+print(fibb(n))
