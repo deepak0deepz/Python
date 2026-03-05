@@ -10,8 +10,8 @@ def pal(n):
     if temp<0:
         rev*=-1
     return temp==rev
-s1=int(input("starting"))
-s2=int(input("starting"))
+s1=int(input("starting number"))
+s2=int(input("starting number"))
 if s1>s2:
     print("s1 shd be smaller")
 else:
