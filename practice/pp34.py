@@ -15,6 +15,6 @@ def clear(n):
         else:
             string+=i
     return string
-x=input("enter the name :")
+x=input("enter the name to convert to lower case:")
 check=clear(x)
 print(check)
