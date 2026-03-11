@@ -7,7 +7,7 @@ class Book:
     def getter(self):
         return self.__pages
 b=Book(00)
-b.setter(1154)
+b.setter(114)
 res=b.getter()
 print(res)
 b.setter(15)
