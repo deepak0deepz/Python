@@ -14,7 +14,7 @@ m=Mobile("vivo")
 print(m.mname)
 print(m.o.status)
 m.o.getos()
-# del m
+# del m    #<<<<<<<--------comment this to run code 
 print("after deleted")
 print(m.mname)
 print(m.o.status)
