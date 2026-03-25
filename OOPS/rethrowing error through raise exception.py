@@ -3,7 +3,7 @@ def fun1():
     try:
         fun2()
     except Exception as e:
-        print(print("error is ",e))
+        print("error is ",e)
     print("leaving fun1")
 
 def fun2():
@@ -12,7 +12,8 @@ def fun2():
         res=10/0
         print(res)
     except Exception as e:
-        print(print("error is ",e))
+        print("error is ",e)
+        raise e
     print("leaving fun2")
     
 

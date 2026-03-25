@@ -1,6 +1,14 @@
-def fun1():
-    print(100/0)
+def fun1(a,b):
+    print(b/a)
+
 try:
-    fun1()
+    a=int(input("num 1 : "))
+    b=int(input("num 2 : "))
+    fun1(a,b)
 except Exception as e:
-    print(e)
+    print(e.__str__())
+else:
+    print("went good without error")
+finally:
+    print("pgm end")
+    
