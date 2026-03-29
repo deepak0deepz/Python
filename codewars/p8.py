@@ -3,7 +3,7 @@ def find_average(numbers):
     count=0
     if not numbers:
         return 0
-    for i in numbers:
+    for i in number:
         total+=i
         count+=1
     print(total)
