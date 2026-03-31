@@ -6,6 +6,7 @@ def fun1():
         print("error is ",e)
     print("leaving fun1")
 
+
 def fun2():
     print("entering 2")
     try:
@@ -14,8 +15,7 @@ def fun2():
     except Exception as e:
         print("error is ",e)
         raise e
-    print("leaving fun2")
-    
+    print("leaving fun2") 
 
 print("start")
 fun1()
