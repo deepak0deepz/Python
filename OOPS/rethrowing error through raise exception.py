@@ -12,7 +12,7 @@ def fun2():
         res=10/0
         print(res)
     except Exception as e:
-        print("error is ",e)
+        print("error iss ",e)
         raise e
     print("leaving fun2")
     
