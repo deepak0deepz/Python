@@ -7,6 +7,7 @@ def count(n):
         n//=10
         count+=1
     return count
+
 def asn(n):
     temp=n
     asn=0

@@ -1,6 +1,6 @@
 student=[]
 for _ in range(int(input())):
-    name = input()
+    name = input("enter")
     score = float(input())
     student.append([name,score])
 marks_list=[]
