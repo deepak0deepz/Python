@@ -10,4 +10,3 @@ print()
 
 res=list(zip_longest(pnames,jnum,runs,team,fillvalue="-"))
 print(res)
-
